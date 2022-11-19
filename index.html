@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slicing UI</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    /* Buat Debugging  */
+    /* * {
+      border: 1px solid black;
+    } */
+
+    body {
+      background: radial-gradient(50% 50% at 50% 50%, #e2eaff 0%, #f4f7ff 100%);
+    }
+
+    .btn {
+      box-shadow: 0px 30px 60px rgba(74, 114, 255, 0.25);
+    }
+  </style>
+  <body>
+    <section class="home">
+      <div class="container max-w-6xl px-10 py-7 mx-auto">
+        <div
+          class="navbar flex justify-between font-source text-base items-center"
+        >
+          <h1 class="text-3xl">👋</h1>
+          <ul class="flex text-[15px]">
+            <li class="mx-9 font-bold">
+              <a href="#">Beranda</a>
+            </li>
+            <li class="mx-9">
+              <a href="#">Fitur-Fitur</a>
+            </li>
+            <li class="mx-9">
+              <a href="#">Teknologi</a>
+            </li>
+            <li class="mx-9">
+              <a href="#">Faw</a>
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="btn bg-primary text-white py-[10px] px-[25px] rounded-md font-bold"
+            >Download</a
+          >
+        </div>
+        <div class="hero flex mt-24 font-source justify-between">
+          <div class="about w-[400px]">
+            <span class="text-primary">CHAT N' RECHAT</span>
+            <h1 class="my-4 font-semibold text-3xl text-dark drop-shadow-2xl">
+              Sebuah aplikasi chatting yang bisa bikin kamu lupa diri, tapi
+              tidak lupa jasa pahlawan!
+            </h1>
+            <p class="mb-9 text-dark opacity-60 drop-shadow-md">
+              Sebenernya banyak banget aplikasi chatting yang lebih bagus dari
+              ini, maka dari itu lebih baik pake yang lain aja deh ya daripada
+              pake aplikasi yang ini.
+            </p>
+            <a
+              href="#"
+              class="btn bg-primary text-white py-[10px] px-[45px] rounded-md mr-5"
+              >Register
+            </a>
+            <a
+              href="#"
+              class="bg-primaryLight text-primary py-[10px] px-[45px] rounded-md"
+              >Learn More</a
+            >
+            <div class="info flex">
+              <div class="total mt-16 flex mr-16">
+                <div>
+                  <img
+                    src="src/assets/icon/download.png"
+                    alt="download-logo"
+                    class="text-dark"
+                  />
+                </div>
+                <div class="total ml-6">
+                  <p class="text-dark opacity-60 text-sm">TOTAL DOWNLOAD</p>
+                  <h1 class="text-2xl text-dark font-bold">6,302,147</h1>
+                </div>
+              </div>
+              <div class="total mt-16 flex">
+                <div>
+                  <img
+                    src="src/assets/icon/user.png"
+                    alt="download-logo"
+                    class="text-dark"
+                  />
+                </div>
+                <div class="total ml-6">
+                  <p class="text-dark opacity-60 text-sm">TOTAL USER</p>
+                  <h1 class="text-2xl text-dark font-bold">1,696,969</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero">
+            <img src="src/assets/hero.png" />
+          </div>
+        </div>
+        <div class="sponsor bg-primaryLight p-[60px] rounded-lg mt-12">
+          <img src="src/assets/banner/banner.png" class="mx-auto" />
+        </div>
+      </div>
+    </section>
+    <section class="description pt-8">
+      <div>
+        <div class="text-center">
+          <p class="text-dark text-sm mb-6">NGGAK HARUS SIH SEBENARNYA</p>
+          <h1 class="text-dark text-2xl mb-4">
+            Kenapa Harus Pakai Chat N’ Rechat?
+          </h1>
+          <p class="text-dark opacity-60 w-[493px] mx-auto mb-16">
+            Sebenernya yang bagus itu sih WhatsApp loh, mending pake WhatsApp
+            aja deh. Yaudah berikut ini adalah fitur-fitur WhatsApp.
+          </p>
+        </div>
+        <div class="feature text-center flex justify-center mb-28 pb-[100px]">
+          <div class="card w-[321px] mr-6">
+            <img
+              src="src/assets/images/1.png"
+              alt="feature-image"
+              class="mx-auto w-[170px] h-[170px]"
+            />
+            <h1 class="text-dark mb-6">Groups to keep in touch</h1>
+            <p class="text-dark opacity-60">
+              Keep in touch with the groups of people that matter the most, like
+              your family or coworkers. With group chats, you can share
+              messages, photos, and videos.
+            </p>
+          </div>
+          <div class="card w-[321px] mr-6">
+            <img
+              src="src/assets/images/2.png"
+              alt="feature-image"
+              class="mx-auto w-[170px] h-[170px]"
+            />
+            <h1 class="text-dark mb-6">Simple, Reliable Messaging</h1>
+            <p class="text-dark opacity-60">
+              Message your friends and family for free*. WhatsApp uses your
+              phone's Internet connection to send messages so you can avoid SMS
+              fees.
+            </p>
+          </div>
+          <div class="card w-[321px] mr-6">
+            <img
+              src="src/assets/images/3.png"
+              alt="feature-image"
+              class="mx-auto w-[170px] h-[170px]"
+            />
+            <h1 class="text-dark mb-6">Speak Freely</h1>
+            <p class="text-dark opacity-60">
+              With voice calls, you can talk to your friends and family for
+              free*, even if they're in another country. And with free* video
+              calls, you can have face-to-face conversations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technology font-source">
+      <div class="container mx-auto flex justify-center">
+        <div class="kiri">
+          <img src="src/assets/images/tech.png" alt="" />
+        </div>
+        <div class="kanan max-w-[497px]">
+          <h1 class="text-sm text-dark">TEKNOLOGI YANG DIGUNAKAN</h1>
+          <h1 class="text-3xl my-6 text-dark">
+            Teknologi Yang Kami Gunakan Di Dalam Aplikasi Ini Akan Membuat DHH
+            Dan Jason Fried Pensiun! 😱
+          </h1>
+          <p class="text-dark opacity-60">
+            Lo bisa bayangin DHH sama Jason Fried aja jadi pensiun gegara
+            aplikasi ini, apalagi lo yang cuma user dan beban kami, gegara lo
+            pake dan daftar di aplikasi ini jadi kita harus bayar server DO tiap
+            bulan, mana pas bayar harus tunjuk-tunjukan. Inilah alasan kenapa
+            gak usah daftar:
+          </p>
+          <div class="tech mt-10">
+            <div class="card flex">
+              <img
+                src="src/assets/icon/emote1.png"
+                alt="emoticon"
+                class="w-[60px] h-[60px]"
+              />
+              <div class="ml-6">
+                <h1 class="mb-5 font-semibold">Kamu Adalah Beban Kami</h1>
+                <p class="text-dark opacity-60">
+                  Semakin banyak kamu yang mendaftar di aplikasi ini, artinya
+                  semakin banyak data yang perlu disimpan, nah kan jadi perlu
+                  server gede tuh. Makanya kamu beban!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tech mt-10">
+            <div class="card flex">
+              <img
+                src="src/assets/icon/emote2.png"
+                alt="emoticon"
+                class="w-[60px] h-[60px]"
+              />
+              <div class="ml-6">
+                <h1 class="mb-5 font-semibold">Males Buat Ngembangin</h1>
+                <p class="text-dark opacity-60">
+                  Lo bakal nemu bug, entah pesan yang mau dikirim gak bisa
+                  dikirim padahal lo belom pencet tombol enter atau masalah
+                  lainnya. Nah soal itu kita males buat benerin.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tech mt-10">
+            <div class="card flex">
+              <img
+                src="src/assets/icon/emote3.png"
+                alt="emoticon"
+                class="w-[60px] h-[60px]"
+              />
+              <div class="ml-6">
+                <h1 class="mb-5 font-semibold">Pokoknya Males Aja Lah</h1>
+                <p class="text-dark opacity-60">
+                  Nggak tau lagi harus ngomong apa, pokoknya males aja sih kita
+                  bikin aplikasi chat kek gini. Makannya mending lo pake
+                  WhatsApp aja udah.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="download-page font-source">
+      <div
+        class="btn container max-w-4xl bg-primary mx-auto flex rounded-lg mt-20 mb-20"
+      >
+        <div class="kiri py-[100px] pl-[80px] w-[570px]">
+          <h1 class="text-sm text-white">DOWNLOAD APLIKASINYA</h1>
+          <h1 class="my-4 text-3xl text-white">
+            Download Aplikasi Chat n’ Rechat Di Play Store, App Store, atau
+            Symbian Store
+          </h1>
+          <ul
+            class="list-disc text-white text-sm opacity-60 max-w-[800px] mx-auto"
+          >
+            <li>
+              <p>Android Version: Mojave+</p>
+            </li>
+            <li>
+              <p>iOS Version: Lolipop+</p>
+            </li>
+            <li>
+              <p>Symbian: 20.04+</p>
+            </li>
+          </ul>
+          <div class="download flex mt-8">
+            <img
+              src="src/assets/icon/appstore-download.png"
+              alt="appstore"
+              class="mr-4 cursor-pointer"
+            />
+            <img
+              src="src/assets/icon/playstore-download.png"
+              alt="playstore"
+              class="cursor-pointer"
+            />
+          </div>
+        </div>
+        <div class="kanan px-20">
+          <img
+            src="src/assets/images/preview.png"
+            alt=""
+            class="h-full w-full"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="qna"></section>
+  </body>
+</html>
